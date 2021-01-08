@@ -768,11 +768,14 @@ button.mfp-arrow {
 .team .item .social a {
     color: #fff;
 }
-
 .logo-cover {
-        background-image: url(../img/mb-logo.svg);
-        width: 60px;
-    }
+    display: block;
+    background-image: url(../img/logo.svg);
+    height: 149px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 
 /* ======= Clients  ======= */
@@ -1375,13 +1378,11 @@ footer p a {
     }
 }
 @media screen and (max-width: 1199px) {
+	
 	.logo-cover {
-    display: block;
-    background-image: url(../img/logo.svg);
-    height: 149px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+        background-image: url(../img/mb-logo.svg);
+        width: 60px;
+    }
     .mobile-navigation {
         display: inline-block;
     }
