@@ -769,6 +769,11 @@ button.mfp-arrow {
     color: #fff;
 }
 
+.logo-cover {
+        background-image: url(../img/mb-logo.svg);
+        width: 60px;
+    }
+
 
 /* ======= Clients  ======= */
 .clients {
@@ -1370,6 +1375,13 @@ footer p a {
     }
 }
 @media screen and (max-width: 1199px) {
+	.logo-cover {
+    display: block;
+    background-image: url(../img/logo.svg);
+    height: 149px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
     .mobile-navigation {
         display: inline-block;
     }
