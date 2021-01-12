@@ -230,7 +230,8 @@
 .togo-fixed-sidebar .logo {
     display: none;
     text-align: center;
-    padding: 45px 0 45px 0px;
+    /* padding: 45px 0 45px 0px; */
+    padding: 20px 0 20px 0px;
 }
 
 .togo-side-content > .logo {
@@ -262,6 +263,8 @@
     font-weight: 400;
     font-size: 75px;
     color: #c5a47e;
+    display: flex;
+    justify-content: center;
 }
 
 .togo-fixed-sidebar .logo a span {
@@ -292,8 +295,8 @@
 }
 
 .togo-sidebar-left.fixed-sidebar-open~.togo-side-content {
-    -webkit-transform: translateX(125px);
-    transform: translateX(125px)
+    /* -webkit-transform: translateX(125px); */
+    /* transform: translateX(125px) */
 }
 
 .togo-sidebar-left+.burger-menu {
@@ -385,7 +388,7 @@
 }
 
 .togo-menu-fixed>ul>li>a {
-    font-family: Agency;
+    font-family: Ambassador;
     font-weight: 400;
     color: #999;
     font-size: 18px;
@@ -698,6 +701,6 @@
     
     .togo-menu-fixed {
         padding-top: 0;
-        padding-bottom: 30px;
+        /* padding-bottom: 30px; */
     }
 }

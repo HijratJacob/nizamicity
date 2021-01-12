@@ -26,7 +26,7 @@
 
 /* =======  Global Properties  ======= */
 @font-face {
-    src: url(../fonts/Ambassadore.otf);
+    src: url(../fonts/Barmeno-Medium.otf);
     font-family: Ambassador;
 }
 * {
@@ -379,6 +379,11 @@ h6 {
 .services .item:hover .numb {
     -webkit-text-stroke: 1px #fff
 }
+.st0{fill:none;stroke:#FFFFFF;stroke-width:0.25;}
+.st1{fill:none;stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;}
+.services .item:hover .st0, .services .item:hover .st1 {
+    stroke-width: 0.50;
+}
 .services .item:after {
     content: "";
     position: absolute;
@@ -401,7 +406,7 @@ h6 {
     color: #c5a47e;
 }
 .services .item .numb {
-    font-size: 75px;
+    font-size: 50px;
     line-height: 75px;
     font-weight: 400;
     font-family: 'Teko', sans-serif;
@@ -410,6 +415,8 @@ h6 {
     opacity: .8;
     margin-bottom: 20px;
 }
+.services .item .numb.c-mb {margin-bottom: 0 !important;}
+.c-mb img {width: 80px;}
 .services .item p {
     font-size: 15px;
 }
@@ -767,7 +774,7 @@ button.mfp-arrow {
 }
 
 .team .item .social a {
-    color: #fff;390
+    color: #fff
 }
 .logo-cover {
     display: block;
