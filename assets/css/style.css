@@ -1389,7 +1389,16 @@ footer p a {
 @media screen and (max-width: 1199px) {
     .logo-cover {
         background-image: url(../img/mb-logo.svg);
-        width: 60px;
+       width: 170px;
+    	position: absolute;
+    	z-index: 1111;
+   	 background-size: cover;
+    	left: 0;
+    	right: 0;
+    	height: 40px;
+    	top: 3px;
+    	margin: auto;
+
     }
     .mobile-navigation {
         display: inline-block;
@@ -1444,6 +1453,7 @@ footer p a {
         font-weight: 400;
         margin: 0;
         font-size: 30px;
+	position: relative   
     }
     .togo-side-content > .logo h1 span {
         display: none;
