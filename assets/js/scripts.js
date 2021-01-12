@@ -237,7 +237,7 @@ $(document).ready(function () {
         , loop: true
         , dots: true
         , margin: 0
-        , autoplay: true
+        // , autoplay: true
         , smartSpeed: 500
         , animateOut: 'fadeOut'
     });
@@ -247,7 +247,7 @@ $(document).ready(function () {
         , loop: true
         , dots: true
         , margin: 0
-        , autoplay: true
+        // , autoplay: true
         , smartSpeed: 500
         , animateOut: 'fadeOut'
     });
