@@ -1388,7 +1388,7 @@ footer p a {
 }
 @media screen and (max-width: 1199px) {
     .logo-cover {
-        background-image: url(../img/mb-logo.svg);
+	background-image: url(../img/mob-logo.svg);
        width: 170px;
     	position: absolute;
     	z-index: 1111;
