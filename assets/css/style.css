@@ -358,6 +358,7 @@ h6 {
     position: relative;
     background-size: cover;
     background-position: 50% 0% !important;
+    height: 400px;
 }
 .services .item:before {
     content: "";
@@ -421,17 +422,50 @@ h6 {
     font-size: 15px;
 }
 .services .bg-1 {
-    background-image: url(../img/525x350.jpg);
+    background-image: url(../img/1.jpg);
 }
 .services .bg-2 {
-    background-image: url(../img/525x350.jpg);
+    background-image: url(../img/1.jpg);
 }
 .services .bg-3 {
-    background-image: url(../img/525x350.jpg);
+    background-image: url(../img/1.jpg);
 }
 
 .services .bg-4 {
-    background-image: url(../img/525x350.jpg);
+    background-image: url(../img/1.jpg);
+}
+.services .bg-5 {
+    background-image: url(../img/1.jpg);
+}
+.services .bg-6 {
+    background-image: url(../img/1.jpg);
+}
+.services .bg-7 {
+    background-image: url(../img/1.jpg);
+}
+.services .bg-8 {
+    background-image: url(../img/1.jpg);
+}
+.services .bg-9 {
+    background-image: url(../img/1.jpg);
+}
+.services .bg-10 {
+    background-image: url(../img/1.jpg);
+}
+.services .bg-11 {
+    background-image: url(../img/1.jpg);
+}
+.services .bg-12 {
+    background-image: url(../img/1.jpg);
+}
+.services .bg-13 {
+    background-image: url(../img/1.jpg);
+}
+.services .bg-14 {
+    background-image: url(../img/1.jpg);
+}
+.services .bg-15 {
+    background-image: url(../img/1.jpg);
 }
 
 
@@ -1388,17 +1422,16 @@ footer p a {
 }
 @media screen and (max-width: 1199px) {
     .logo-cover {
-	background-image: url(../img/mob-logo.svg);
-       width: 170px;
-    	position: absolute;
-    	z-index: 1111;
-   	 background-size: cover;
-    	left: 0;
-    	right: 0;
-    	height: 40px;
-    	top: 3px;
-    	margin: auto;
-
+        background-image: url(../img/mob-logo.svg);
+        width: 170px;
+        position: absolute;
+        z-index: 1111;
+        background-size: cover;
+        left: 0;
+        right: 0;
+        height: 40px;
+        top: 3px;
+        margin: auto;
     }
     .mobile-navigation {
         display: inline-block;
@@ -1411,6 +1444,9 @@ footer p a {
         font-weight: 400;
         margin: 0;
         font-size: 30px;
+        width: 100%;
+        height: 45px;
+        position: relative;
     }
     .togo-side-content > .logo h1 span {
         display: none;
@@ -1453,7 +1489,6 @@ footer p a {
         font-weight: 400;
         margin: 0;
         font-size: 30px;
-	position: relative   
     }
     .togo-side-content > .logo h1 span {
         display: none;
@@ -1500,9 +1535,6 @@ footer p a {
         font-weight: 400;
         margin: 0;
         font-size: 30px;
-	position: relative;
-	width:100%;
-	    height:45px
     }
     .togo-side-content > .logo h1 span {
         display: none;
