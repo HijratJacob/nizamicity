@@ -29,6 +29,15 @@
     src: url(../fonts/Barmeno-Medium.otf);
     font-family: Ambassador;
 }
+
+.call-me {
+    position: fixed;
+    right: 30px;
+    position: fixed;
+    z-index: 11;
+    bottom: 30px;
+}
+.call-me img {width: 50px;}
 * {
     margin: 0;
     padding: 0;
