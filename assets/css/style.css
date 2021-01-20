@@ -36,6 +36,7 @@
     position: fixed;
     z-index: 11;
     bottom: 30px;
+    cursor: pointer;
 }
 .call-me img {width: 50px;}
 * {
