@@ -88,8 +88,13 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: #292929;
+	position: relative
 }
-
+body::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  content: "\f167";
+}
 p {
     font-family: 'Rambla', sans-serif;
     font-size: 15px;
