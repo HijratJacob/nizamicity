@@ -1269,6 +1269,8 @@ button.mfp-arrow {
 .post .item .post-img .img {
     -webkit-transition: all .4s;
     transition: all .4s;
+    height:600px;
+    object-fit:contain;
 }
 
 .post .item .cont {
