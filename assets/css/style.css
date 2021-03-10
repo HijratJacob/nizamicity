@@ -92,8 +92,13 @@ body {
 }
 body::before {
   font-family: "Font Awesome 5 Brands";
-  font-weight: 400;
-  content: "\f167";
+font-weight: 400;
+content: "\f167";
+position: absolute;
+bottom: 0;
+background: red;
+width: 50px;
+height: 50px;
 }
 p {
     font-family: 'Rambla', sans-serif;
